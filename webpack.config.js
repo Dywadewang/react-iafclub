@@ -2,6 +2,7 @@ var path = require('path');
 var webpack = require('webpack');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var nib = require('nib');
+
 module.exports = {
     context: __dirname,
     entry: [
